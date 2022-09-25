@@ -1,0 +1,105 @@
+a{
+    display: inline-block;
+    color: blue;
+    font-family: sans-serif;   
+}
+
+th{
+    text-align: left;
+    padding-left: 10px;
+}
+
+.content p{
+    font-family: sans-serif;
+}
+
+.container{
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.title h1{
+    font-family: 'Delius Swash Caps', cursive;
+    font-size: 40px;
+    margin-top: 10px;
+}
+
+.navbar a{
+    padding-top: 10px;
+}
+
+.content{
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 0;
+}
+
+.section-left{
+    width: 600px;
+    float: left;
+    padding: 5px;
+}
+
+.section-left p{
+    text-align: left;
+    font-size: 18px;
+}
+
+.section-left h1{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 48;
+    font-family: 'Delius Swash Caps', cursive;
+}
+
+.section-left h3{
+    font-size: 18px;
+    color: gray;
+    font-weight: normal;
+    padding-bottom: 30px;
+    font-family: sans-serif;
+}
+
+.section-right p{
+    text-align: left;
+    font-size: 16px;
+    margin-left: 12px;
+    font-family: sans-serif;
+}
+
+.section-right h1{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 48;
+    font-family: 'Delius Swash Caps', cursive;
+}
+
+.section-right h3{
+    font-size: 18px;
+    color: gray;
+    font-weight: normal;
+    padding-bottom: 30px;
+    font-family: sans-serif;
+}
+
+.section-right{
+    width: 300px;
+    float: right;
+
+}
+
+.footer{
+    position: relative;
+    padding-top: 80%;    
+    text-align: center;
+}
+.section-footer{
+    background-color: blueviolet;
+    height: 20px;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 25px;
+}
