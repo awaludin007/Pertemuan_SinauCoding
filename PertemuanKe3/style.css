@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+body{
+    margin: 0;
+    display: flex;
+    height: 100dvh;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: normal;
+    font-family: "Montserrat", sans-serif;
+    
+}
+
+h1{
+    font-weight: 900;
+}
+
+.left {
+    width: 50%;
+    height: 100%;
+    padding: 40px 50px;
+    background-color: #1E9CF1;
+    box-sizing: border-box;
+    text-align: center;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left h1{
+    font-size: 50px;
+}
+
+.left h2{
+    font-size: 20px;
+}
+.right {
+    width: 50%;
+    padding: 40px 100px;
+    background-color: #FFFFFF;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+
+.right h1{
+    margin: 40px 0;
+    color: black;
+}
+
+.right .form .label{
+    color: #757575;
+    font-size: larger;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.right .content{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.right .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.right .sign-up{
+    color: #1E9CF1;
+    font-weight: 900;
+}
+
+.right .sign-up:hover{
+    color: #757575;
+}
+
+.right .form .btn {
+    display: flex;
+    gap: 4px;
+}
+
+.or{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+button {
+    cursor: pointer;
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    font: inherit;
+}
+
+.btn-sign-in {
+    background-color: #1E9CF1;
+    color: #FFFFFF;
+    padding: 20px;
+}
+
+.forgot-pass{
+    text-decoration: none;
+    color: #757575;
+    font-weight: 600;
+    margin: 14px 0px;
+    font-size: 16px;
+    float: inline-end;
+}
+
+.forgot-pass:hover{
+    color: lightblue;
+}
+
+.btn-apple, .btn-google {
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+
+.btn-apple {
+    background-color: #191D23;
+    color: #FFFFFF;
+}
+
+button:hover{
+    background-color: #bdbdbd;
+}
+
+input {
+    display: block;
+    width: 100%;
+    background-color: #EEEEEE;
+    border: none;
+    border-radius: 5px;
+    padding: 20px;
+    font: inherit;
+    box-sizing: border-box;
+    margin-bottom: 12px;
+}
+
+input:focus {
+    outline: none;
+    background-color:#e0e0e0 ;
+}
