@@ -1,0 +1,50 @@
+body {
+  background-color: lightcyan;
+}
+
+#navbar {
+  background-color: aqua;
+}
+
+.navbar a {
+  font-size: large;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  color: chocolate;
+}
+
+.logo {
+  width: 50px;
+}
+
+.jumbotron {
+  height: 50vh;
+  width: 100%;
+
+  background-image: url(img/bg-gaming.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+@media (min-width: 1200px) {
+  .display-4 {
+    font-size: 3.5rem;
+  }
+}
+
+.display-4 {
+  font-size: calc(1.475rem + 2.7vw);
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+#product img {
+  height: 45vh;
+}
+
+.jumbotron h1 {
+  font-size: 4rem;
+  font-weight: bold;
+}
